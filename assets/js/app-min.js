@@ -1,0 +1,1 @@
+function isMobileSafari(){return navigator.userAgent.match(/(iPod|iPhone|iPad)/)&&navigator.userAgent.match(/AppleWebKit/)}$(document).ready(function(){$(".slides").flickity({wrapAround:!0,setGallerySize:!1,imagesLoaded:!0,cellSelector:".slide"})});
